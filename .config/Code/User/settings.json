@@ -1,0 +1,80 @@
+{
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.userWords": [
+    "catppuccin",
+    "fget",
+    "Komodaa",
+    "pycache",
+    "UPVOTE",
+    "venv"
+  ],
+  "editor.suggestSelection": "first",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true
+  },
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "scm.inputFontSize": 12,
+  "markdown.preview.fontSize": 13,
+  "debug.console.fontSize": 13,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "editor.rulers": [119],
+  "php-cs-fixer.autoFixBySemicolon": true,
+  "php-cs-fixer.documentFormattingProvider": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 119,
+
+  "workbench.colorCustomizations": {},
+  "black-formatter.path": ["/usr/bin/black"],
+  "flake8.path": ["/usr/bin/flake8"],
+  "AREPL.max_string_length": 100,
+  "wolf.maxLineLength": 119,
+  "flake8.args": ["--line-length", "119"],
+  "black-formatter.args": ["--line-length", "119"],
+  "python.languageServer": "Pylance",
+  "explorer.confirmDelete": false,
+  "sqltools.useNodeRuntime": true,
+  "terminal.integrated.allowChords": false,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font' ,'Droid Sans Mono', 'monospace', monospace",
+  "python.defaultInterpreterPath": ".venv",
+  "codeium.enableConfig": {
+    "*": true,
+    "pip-requirements": true,
+    "gitignore": true
+  },
+  "python.createEnvironment.trigger": "prompt",
+  "projectManager.git.baseFolders": ["~/projects/"],
+  "explorer.autoRevealExclude": {
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "files.exclude": {
+    "**/.venv": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "catppuccin.accentColor": "green",
+  "catppuccin.extraBordersEnabled": true,
+  "catppuccin.workbenchMode": "minimal"
+}
