@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -105,14 +105,14 @@ source $ZSH/oh-my-zsh.sh
 alias nekoray="sudo ~/opt/nekoray/launcher"
 alias ls="lsd --color=auto"
 alias pacman="pacman --color=auto"
-alias vim="lvim"
+#alias vim="lvim"
 alias yay="yay --color=auto"
 alias lsd="lsd --color=auto"
 alias cat="bat"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-export XDG_CONFIG_HOME=~/.config/
+export XDG_CONFIG_HOME=~/.config
 
 export VIRTUAL_ENV=".venv"
 export LFS=/mnt/lfs
@@ -120,9 +120,9 @@ export LFS=/mnt/lfs
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
-eval "$(pyenv init --path)"
+#eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#eval "$(pyenv virtualenv-init -)"
 eval "$(starship init zsh)"
 
 prompt_context() {

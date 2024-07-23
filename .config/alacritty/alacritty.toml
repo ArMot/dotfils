@@ -13,9 +13,9 @@ TERM = "xterm-256color"
 
 [window]
 dynamic_title = true
-decorations = "Buttonless"
-dynamic_padding = true
-opacity = 0.75
+decorations = "Full"
+dynamic_padding = false
+opacity = 0.7
 blur = true
 # [window.padding]
 # x = 5 
@@ -23,30 +23,26 @@ blur = true
 
 
 [font]
-size = 10.0
+size = 10.5
 
 [font.bold]
-# family = "JetBrainsMono Nerd Font Mono"
-# style = "Bold"
 family = "JetBrainsMono Nerd Font Mono"
-style = "ExtraBold"
+style = "Bold"
+# style = "ExtraBold"
 
 [font.bold_italic]
-# family = "JetBrainsMono Nerd Font Mono"
-# style = "Bold Italic"
-family = "JetBrainsMono Nerd Font Mono"
-style = "ExtraBold Italic"
-
-[font.italic]
-# family = "JetBrainsMono Nerd Font Mono"
-# style = "Italic"
 family = "JetBrainsMono Nerd Font Mono"
 style = "Bold Italic"
+# style = "ExtraBold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+#style = "Medium Italic"
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font Mono"
-# style = "regular"
 family = "JetBrainsMono Nerd Font Mono"
-style = "demibold"
+style = "Regular"
+#style = "Medium"
 
 
